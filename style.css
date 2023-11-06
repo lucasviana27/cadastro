@@ -1,0 +1,150 @@
+body{
+    font-family: 'Glacial indefference';
+    background-color:rgb(199, 199, 175);;
+    color: #ffffff;
+}
+
+.logocad{
+    display:flex;
+    font-family: 'Anton', sans-serif;
+    font-family: 'REM', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    align-items: center;
+    font-size: 50px;
+    justify-content: center;
+}
+.logocad img{
+    width: 250px;
+}
+
+.acad a{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.acad {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 2em auto;    
+}
+
+.acad a:hover{
+    color: #1752cf;
+    transition: 1s;
+}
+
+.bloco1 {
+    align-items: center;
+    padding: 2em;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 180px;
+}
+
+/* Cliente */
+.box{
+    position: absolute;
+    width: 484px;
+    height: 540px;
+    top: 50%;
+    left: 50%;
+    color: #110e0e;
+    background-color: #ffffff;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+.head{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.box img{
+    width: 150px;
+}
+
+.inputbox{
+    position: relative;
+}
+
+.inputuser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #545454;
+    outline: none;
+    font-size: 15px;
+    width: 90%;
+    letter-spacing: 2px;
+}
+
+label, input{
+    margin: 1em;
+}
+
+.labelinput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.inputuser:focus ~ .labelinput,
+.inputuser:valid ~ .labelinput{
+    top: -25px;
+    font-size: 18px;
+    color: #545454;
+    font-weight: bold;
+}
+
+.button{
+    background-color: #161718;
+    border: none;
+    width: 40%;
+    border-radius: 10px;
+    padding: 1em;
+    color: #ffffff;
+    font-size: 13px;
+    margin-left: 33%;
+    cursor: pointer;
+}
+
+.button:hover{
+    font-size: 17px;
+    color: #5c13b1;
+}
+
+.volta a{
+    position: absolute;
+    color: #252429;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 7px;
+    padding: 1em;
+    margin-left: 101px;
+    background-color: #ffffff;
+}
+
+.volta a:hover{
+    color: #5c13b1;
+    font-size: 17px;
+}
+
+/* Produto*/
+
+.headp{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.headp h1{
+    margin-left: 35px;
+    font-size: 45px;
+}
